@@ -81,7 +81,7 @@ func (s *scanner) string() []byte {
 	result := make([]byte, length)
 	total := 0
 	for total < length {
-		total += s.read(result);
+		total += s.read(result)
 		if total < length {
 			result = result[total:]
 		}
@@ -152,4 +152,3 @@ func Parse(r io.Reader) (result interface{}, err error) {
 	}
 	return
 }
-
