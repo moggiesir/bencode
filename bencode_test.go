@@ -13,7 +13,7 @@ func TestParse(t *testing.T) {
 	}
 	expected := []interface{}{
 		map[string]interface{}{
-			"foo": []interface{}{1234},
+			"foo1": []interface{}{1234},
 		},
 		[]byte{'b', 'a', 'r'},
 	}
